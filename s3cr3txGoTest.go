@@ -11,9 +11,9 @@ import (
 
 func main() {
 	fmt.Println("Hello, Thank you for testing s3cr3tx with Go")
-	var email string = "pk@gratitech.com"
-	var APIToken string = "bCrCgRrFoMKyw4PDkyoYF8O9PSXDrsKQRuKAueKAmTbDqsOdacOkw6/Dn8Kzw5/DvRTDjuKAusOyWG3DgG1oUMOBOcObfcOLDwpiwo06CcK2W8OHY3vDmkQzwqTCs1Mzwr/Cvg=="
-	var AuthCode string = "w4zCtm8fH1o7wr/DuB3FoeKAmDtfw5ZvwrLihKLigLA9XcOeMcKtHRYBy4Z5GhTDuMWgwqZoUsOnXR4hCsuG4oChV1HigLDDgMK4w6HFoTbDhlksw7gowrXDhsOMUMOKw4BmFg=="
+	var email string = "you@yourdomain.com"
+	var APIToken string = "YourS3cr3txAPIToken"
+	var AuthCode string = "YourS3cr3txAuthCode"
 	var baseurl string = "https://s3cr3tx.com/Values"
 
 	req, err := http.NewRequest(http.MethodGet, baseurl, nil)
