@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Hello, Thank you for testing s3cr3tx with Go")
 	var email string = os.Getenv("s3cr3tx_Email")                                                                                                                            //"you@yourdomain.com"
 	var APIToken string = os.Getenv("s3cr3tx_APIToken")
-	var AuthCode string =  os.Getenv("s3cr3txAuthCode")
+	var AuthCode string =  os.Getenv("s3cr3tx_AuthCode")
 	var baseurl string = "https://s3cr3tx.com/Values"
 
 	req, err := http.NewRequest(http.MethodGet, baseurl, nil)
